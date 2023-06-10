@@ -3,7 +3,7 @@ SECRET_KEY = 'dev'
 DEBUG = True
 
 # MongoDB Configuration
-MONGO_URI = 'mongodb://root:example@mongodb.youngstorage.in:27017'
+MONGO_URI = 'mongodb://conference:conference%40321@mongodb.youngstorage.in:27017/?authSource=conference'
 MONGO_DBNAME = 'conference'
 
 # Email Configuration
